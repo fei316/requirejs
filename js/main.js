@@ -6,6 +6,7 @@ require.config({
 	},
     paths : {
         "jquery": "jquery.min",
-		"layer": "layer/layer"
+		"layer": "layer/layer",
+		"b": "b"
     }
 })

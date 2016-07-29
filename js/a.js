@@ -1,11 +1,11 @@
-require(['jquery', 'layer'], function($, layer){
+require(['jquery', 'layer', 'b'], function($, layer, b){
+	//获取全局变量
 	console.log(name);
-	console.log(layer);
-	layer.open({
-	  title: 'test',
-	  content: 'hello layer'
-	});
+	b.layermsg();
 	$('#div1').on('click', function(){
-		console.log('sdfdsfds');
+		layer.open({
+		  title: 'test',
+		  content: 'hello layer'
+		});
 	});
 });
