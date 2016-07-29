@@ -1,5 +1,11 @@
 require.config({
+	shim: {
+		"layer": {
+			deps: ["jquery"]
+		}
+	},
     paths : {
-        "jquery": "jquery.min" 
+        "jquery": "jquery.min",
+		"layer": "layer/layer"
     }
 })
